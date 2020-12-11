@@ -1,0 +1,258 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(219, 214, 214);
+}
+div.box-1 {
+    position: relative;
+    background-color: white;
+    height: 450px;
+    min-width: 400px;
+    width: 30%;
+    left: 50%;
+    top: 5%;
+    border: 1px solid rgb(167, 167, 167);
+    align-items: center;
+}
+div.box-1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 30%;
+}
+div.box-2 {
+    position: relative;
+    background-color: white;
+    height: 75px;
+    min-width: 400px;
+    width: 30%;
+    left: 50%;
+    top: 7.5%;
+    border: 1px solid rgb(167, 167, 167);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+div.box-3 {
+    position: relative;
+    width: 30%;
+    min-width: 400px;
+    left: 50%;
+    height: 100px;
+    align-items: center;
+}
+p.cadastro {
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', "Geneva", "Verdana", "sans-serif";
+    text-align: center;
+}
+p.cadastro a{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: normal;
+}
+p.cadastro a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+div p.app {
+    position: relative;
+    text-align: center;
+    margin-top: 10%;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', "Geneva", "Verdana", "sans-serif";
+
+}
+img.app-store {
+    width: 48%;
+}
+img.google-play {
+    width: 48%;
+}
+.input-email {
+    text-align: left;
+    position: relative;
+    left: 10%;
+    width: 80%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.input-senha {
+    text-align: left;
+    position: relative;
+    left: 10%;
+    width: 80%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+span.e-mail {
+    font-size: smaller;
+    text-overflow: inherit;
+    position: relative;
+    left: 12%;
+    bottom: 30px;
+    color: rgb(110, 110, 110);
+    pointer-events: none;
+    transition: 0.1s;
+}
+span.senha {
+    font-size: smaller;
+    position: relative;
+    left: 12%;
+    bottom: 30px;
+    color: rgb(110, 110, 110);
+    pointer-events: none;
+    transition: 0.1s;
+}
+input.input-email:focus {
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+input.input-email:focus ~ span.e-mail {
+    font-size: 70%;
+    bottom: 40px;
+    left: 11%;
+}
+input.input-senha:focus {
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+input.input-senha:focus ~ span.senha {
+    font-size: 70%;
+    bottom: 40px;
+    left: 11%;
+}
+div.linha {
+    position: relative;
+    height: 0.25%;
+    background-color: darkgray;
+    width: 35%;
+    top: 3%;
+    left: 5%;
+}
+div.linha-2 {
+    position: relative;
+    height: 0.25%;
+    background-color: darkgray;
+    width: 35%;
+    bottom: 8.75%;
+    left: 60%;
+}
+p.ou {
+    position: relative;
+    bottom: 2.5%;
+}
+div button {
+    font-size: 100%;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', "Geneva", "Verdana", "sans-serif";
+    background-color: rgb(59, 143, 238);
+    position: relative;
+    width: 80%;
+    left: 11%;
+    height: 10%;
+    bottom: 1%;
+    border-style: none;
+}
+div button:hover {
+    background-color: rgb(103, 163, 233);
+}
+div.box-1 img.face-img {
+    height: 6%;
+    width: 9%;
+    float: left;
+    margin-left: 10%;
+}
+div.box-1 a.facebook, div.box-1 a.facebook p {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    color: darkblue;
+    bottom: 2.4%;
+    right: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', "Geneva", "Verdana", "sans-serif";
+}
+div.box-1 a.facebook:hover, div.box-1 a.senha:hover {
+    text-decoration: underline;
+}
+a.senha p, a.senha{
+    font-size: larger;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    bottom: 8%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', "Geneva", "Verdana", "sans-serif";
+}
+div.box-3 a.a-img {
+    width: 100%;
+    height: 100%;
+    display: inline;
+    align-items: center;
+}
+body img.cell-1 {
+    position: absolute;
+    width: 30%;
+    min-width: 200px;
+    height: 90%;
+    left: 13%;
+}
+body img.cell-2 {
+    position: absolute;
+    width: 30%;
+    min-width: 200px;
+    height: 90%;
+    left: 18%;
+    top: 4%;
+}
+body section {
+    text-align: center;
+    position: relative;
+    width: 60%;
+    height: 100%;
+    left: 20%;
+    top: 60%;
+}
+body p.low-bar {
+    color: gray;
+    position: relative;
+    display: inline;
+    top: 5%;
+    padding-left: 1.5%;
+}
+@media (max-width: 1024px) {
+    body div.box-1{
+        min-width: 250px;
+    }
+    body div.box-2{
+        min-width: 250px;
+    }
+    body div.box-3{
+        min-width: 250px;
+    }
+}
+@media (max-width: 650px) {
+    body img.cell-1 {
+        display: none;
+    }
+    body img.cell-2 {
+        display: none;
+    }
+    body div.box-1{
+        width: 100%;
+        left: 0%;
+    }
+    body div.box-2{
+        width: 100%;
+        left: 0%;
+    }
+    body div.box-3{
+        width: 100%;
+        left: 0%;
+    }
+}
